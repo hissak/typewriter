@@ -9,7 +9,7 @@ const typewriter = function (string) {
   } 
   setTimeout(() => {
     console.log("\n")
-  }, 2000)
+  }, timer)
 }
 
 typewriter(sentence)
